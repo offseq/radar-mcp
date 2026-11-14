@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "radar": {
+      "type": "http",
+      "url": "https://radar.offseq.com/mcp",
+      "headers": {
+        "X-API-Key": "${RADAR_API_KEY}"
+      }
+    }
+  }
+}

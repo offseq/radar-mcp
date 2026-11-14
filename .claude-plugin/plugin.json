@@ -1,0 +1,25 @@
+{
+  "name": "offseq-radar",
+  "version": "1.0.0",
+  "description": "OffSeq Threat Radar MCP server: CVE, CISA KEV, EPSS and exploit intelligence, SBOM and lockfile scans, patch prioritisation and IOC checks. Set RADAR_API_KEY first.",
+  "author": {
+    "name": "OffSeq",
+    "email": "support@offseq.com",
+    "url": "https://offseq.com"
+  },
+  "homepage": "https://radar.offseq.com/api-docs?tab=mcp",
+  "repository": "https://github.com/offseq/radar-mcp",
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "cve",
+    "vulnerability",
+    "cisa-kev",
+    "epss",
+    "sbom",
+    "threat-intelligence",
+    "mcp"
+  ],
+  "privacyPolicyUrl": "https://radar.offseq.com/privacy",
+  "icon": ".claude-plugin/icon.png"
+}

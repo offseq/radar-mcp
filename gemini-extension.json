@@ -1,0 +1,21 @@
+{
+  "name": "offseq-radar",
+  "version": "1.0.0",
+  "description": "OffSeq Threat Radar: CVE, CISA KEV, EPSS and exploit intelligence, SBOM and lockfile scans, patch prioritisation and IOC checks over MCP. Free API key at https://radar.offseq.com/console",
+  "settings": [
+    {
+      "name": "Radar API key",
+      "description": "Your Radar API key (tr_…), from Console > Settings at https://radar.offseq.com/console. Sent only to radar.offseq.com.",
+      "envVar": "RADAR_API_KEY",
+      "sensitive": true
+    }
+  ],
+  "mcpServers": {
+    "radar": {
+      "httpUrl": "https://radar.offseq.com/mcp",
+      "headers": {
+        "X-API-Key": "${RADAR_API_KEY}"
+      }
+    }
+  }
+}

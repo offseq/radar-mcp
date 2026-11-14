@@ -1,0 +1,17 @@
+{
+  "name": "offseq",
+  "owner": {
+    "name": "OffSeq",
+    "email": "support@offseq.com"
+  },
+  "plugins": [
+    {
+      "name": "offseq-radar",
+      "source": "./",
+      "description": "OffSeq Threat Radar MCP server: vulnerability and threat intelligence for coding agents."
+    }
+  ],
+  "metadata": {
+    "description": "OffSeq plugins for Claude Code."
+  }
+}
