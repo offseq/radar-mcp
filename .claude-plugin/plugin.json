@@ -1,6 +1,6 @@
 {
   "name": "offseq-radar",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "OffSeq Threat Radar MCP server: CVE, CISA KEV, EPSS and exploit intelligence, SBOM and lockfile scans, patch prioritisation and IOC checks. Set RADAR_API_KEY first.",
   "author": {
     "name": "OffSeq",
